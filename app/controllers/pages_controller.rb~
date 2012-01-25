@@ -1,0 +1,9 @@
+class PagesController < ApplicationController
+  def home
+    puts 'yummie'
+  end
+
+  def contact
+  end
+
+end
