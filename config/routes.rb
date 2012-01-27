@@ -1,4 +1,6 @@
 Chap3::Application.routes.draw do
+  get "users/new"
+  match '/signup', :to =>'users#new'
   match '/contact', :to => 'pages#contact'
   match '/help', :to => 'pages#help'
   match '/about', :to => 'pages#about'
